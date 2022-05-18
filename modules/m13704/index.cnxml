@@ -1,0 +1,217 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+	<title>Network In UEH</title>
+	<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e7248e45-503f-4404-8cb0-f03a3f4c8063</md:uuid>
+</metadata>
+	<content>
+		<para id="id4374353">HƯỚNG DẪN NHẬP MÔN HTML (ĐÂY CHỈ LÀ VÍ DỤ TẠO BÀI GIẢNG)</para><para id="id3631659">Bài này sẽ trình bày về những bí ẩn của ngôn
+ngữ đánh dấu siêu văn bản (HTML), nhưng thực chất chẳng có gì bí
+ẩn. Nếu đã biết cách dùng trình xử lý văn bản, bạn có thể tạo ra
+các trang Web chỉ trong vài phút.Nhờ được xây dựng trên nền văn bản
+và đồ hoạ, World Wide Web (WWW) đã đưa Internet nhập vào dòng chảy
+của cuộc sống. Nhưng tính hấp dẫn của WWW vượt xa hơn nhiều so với
+giao diện đồ hoạ, là cái đã lôi cuốn nhiều người dùng PC không rành
+kỹ thuật. Nhờ HTML tương đối đơn giản nên nhiều người bình thường
+có thể tạo ra các Web site đầy ấn tượng. Nếu bạn khao khát muốn đưa
+cái gì đó của mình lên Web, thì tất cả những điều mà bạn cần có là
+một tài khoản đăng ký với hãng cung cấp Web, một ít bí quyết về
+HTML, và một chút óc sáng tạo.Bài báo này sẽ đưa bạn đi một chuyến
+du lịch trên trang Web điển hình, để bạn có thể thấy nó được thực
+hiện như thế nào. Đặc biệt, bạn sẽ được giới thiệu về các phần tử
+cấu tạo nên HTML (Hypertext Markup Language - Ngôn ngữ đánh dấu
+siêu văn bản) - linh hồn các trang Web. Và ngay cả trong trường hợp
+không có dự định tạo ra Web site riêng cho mình, thì bạn cũng có
+thêm được hiểu biết về những gì xảy ra khi bạn nối vào Web và xem
+các trang ưa thích.</para>
+		<para id="id4042441">HTML: Ngôn ngữ đánh dấu:</para>
+		<para id="id4531902">Sau những lóng ngóng với vài trang Web trong
+cuộc du lịch Internet, có thể bạn nghĩ rằng phải có gói phần mềm
+tinh vi để thu được tất cả những hiệu ứng trang trí đầy quyến rũ
+này. Mặc dù có một số công cụ dành cho những người say mê HTML thực
+sự, nhưng bạn có thể dùng một trình soạn thảo văn bản bất kỳ như
+Notepad của Windows để tạo ra những trang Web hấp dẫn.Sự thật là
+hầu hết các trang đều không có gì khác ngoài văn bản được gia cố
+thêm bằng một phần tử HTML xếp đặt đúng quy cách. Để hiểu được cách
+hoạt động của chúng, bạn phải xem xét từng từ trong cụm từ Ngôn ngữ
+đánh dấu siêu văn bản và xem chúng có ý nghĩa gì:Siêu văn bản
+(HyperText). Như bạn đã biết, liên kết siêu văn bản là một từ hay
+một câu trong trang Web dùng để chỉ đến trang Web khác. Khi nhấn
+chuột lên một trong các liên kết này, trình duyệt của bạn (như
+Netscape Navigator hoặc Internet Explorer) sẽ đưa bạn tức khắc đến
+trang Web kia mà không cần hỏi han gì. Vì những liên kết siêu văn
+bản này thật sự là tính năng đặc trưng của World Wide Web, các
+trang Web thường được biết như là những tài liệu siêu văn bản. Cho
+nên HTML có từ siêu văn bản trong tên của nó, vì bạn dùng nó để tạo
+nên các tài liệu siêu văn bản này.Đánh dấu (Markup). Có từ điển
+định nghĩa markup là các chỉ dẫn chi tiết về kiểu dáng được ghi
+trên bản viết tay để xếp chữ in. Trong lĩnh vực này, chúng ta có
+thể viết lại định nghĩa như sau: các lệnh chi tiết về kiểu dáng
+được đánh vào tài liệu văn bản để đưa lên WWW. Đó là HTML theo một
+định nghĩa tóm tắt. Nó gồm một vài mã đơn giản để tạo ra văn bản
+nét đậm hoặc nghiêng và các bảng liệt kê dấu chấm đầu dòng, các
+hình đồ hoạ chèn thêm vào, cùng với sự xác định các mối liên kết
+siêu văn bản. Bạn đánh các mã này vào những chỗ thích hợp trong tài
+liệu văn bản gốc, trình duyệt Web sẽ thực hiện việc dịch chúng.Ngôn
+ngữ (Language). Đây có thể là từ dễ nhầm lẫn nhất trong cụm từ này.
+Nhiều người diễn giải HTML như là một ngôn ngữ lập trình. HTML
+không có gì liên quan đến việc lập trình máy tính cả. HTML gọi là
+ngôn ngữ chỉ vì nó gồm các tập hợp nhỏ các nhóm hai đến ba chữ và
+các từ mà bạn dùng để quy định kiểu dáng như nét đậm hoặc
+nghiêng.</para>
+		<para id="id2491030">Các thẻ HTML:</para>
+		<para id="id4487329">Bây giờ chúng ta cùng đi sâu vào các khái niệm
+đằng sau HTML, và xem xét một số ví dụ mẫu. Để bắt đầu, tất cả công
+việc phải làm là khởi động trình soạn thảo văn bản yêu thích của
+bạn và bảo đảm đã có một tài liệu rỗng được hiển thị.Trình xử lý
+văn bản của bạn phải có khả năng lưu tập tin ở dạng văn bản.
+Notepad làm việc này một cách tự động; còn các trình xử lý văn bản
+khác, như Word và WordPerfect, thì có tuỳ chọn văn bản trong hộp
+thoại Save As. Hãy tham khảo tài liệu thuyết minh của trình xử lý
+văn bản. Đồng thời bạn phải lưu các trang với đuôi mở rộng HTM hoặc
+HTML, như trong Homepage.htm chẳng hạn.Tạo lập trang Web là một vấn
+đề đơn giản, chỉ cần đánh văn bản của bạn vào rồi chèn thêm các ký
+hiệu đánh dấu, gọi là thẻ có dạng như sau:&lt;TAG&gt;văn bản chịu
+tác động&lt;/TAG&gt;Phần thẻ là một mã (thường chỉ có một hoặc hai
+chữ) xác định hiệu ứng mà bạn yêu cầu. Ví dụ, cho thẻ nét đậm là
+&lt;B&gt;. Cho nên nếu bạn muốn câu ACME Coyote Suppplies xuất hiện
+theo kiểu chữ đậm (bold), bạn phải đưa dòng sau đây vào tài liệu
+của mình:&lt;B&gt;ACME Coyote Supplies&lt;/B&gt;Thẻ đầu tiên báo
+cho trình duyệt (browser) hiển thị tất cả phần văn bản tiếp theo
+bằng phông chữ đậm, liên tục cho đến thẻ &lt;B&gt;. Dấu gạch chéo
+(/) xác định đó là thẻ kết thúc, và báo cho trình duyệt ngưng hiệu
+ứng đó. HTML có nhiều thẻ dùng cho nhiều hiệu ứng khác, bao gồm chữ
+nghiêng (italic), dấu đoạn văn bản (paragraph), tiêu đề, tên trang,
+liệt kê, liên kết, và nhiều thứ nữa.</para>
+		<para id="id4667909">Cấu trúc cơ sở:</para>
+		<para id="id4721693">Các trang Web khác nhau, tẻ nhạt hay sinh
+động, vô nghĩa hoặc rất cần thiết, nhưng tất cả đều có cùng một cấu
+trúc cơ sở, nên đa số các trình duyệt đang chạy trên hầu hết các
+kiểu máy tính đều có thể hiển thị thành công hầu hết các trang
+Web.Các tập tin HTML luôn bắt đầu bằng thẻ &lt;HTML&gt;. Thẻ này
+không làm gì khác ngoài nhiệm vụ báo cho trình duyệt Web biết rằng
+nó đang đọc một tài liệu có chứa các mã HTML. Tương tự, dòng cuối
+trong tài liệu của bạn luôn luôn là thẻ &lt;/HTML&gt;, tương đương
+như Hết.Chi tiết kế tiếp trong catalog thẻ HTML dùng để chia tài
+liệu thành hai phần: đầu và thân.Phần đầu giống như lời giới thiệu
+cho trang. Các trình duyệt Web dùng phần đầu này để thu nhặt các
+loại thông tin khác nhau về trang. Để xác định phần đầu, bạn đưa
+thêm thẻ &lt;HEAD&gt; và thẻ &lt;/HEAD&gt; vào ngay sau thẻ
+&lt;HTML&gt;. Mặc dù bạn có thể đặt một số chi tiết bên trong phạm
+vi phần đầu này, nhưng phổ biến nhất là tên trang. Nếu có ai đó xem
+trang này trong browser, thì tên trang sẽ xuất hiện trong dải tên
+của cửa sổ browser. Để xác định tên trang, bạn đặt đoạn văn bản tên
+đó giữa các thẻ &lt;TITLE&gt; và &lt;/TITLE&gt;. Ví dụ nếu bạn muốn
+tên trang của mình là My Home Sweet Home Page, bạn đưa nó vào như
+sau:&lt;TITLE&gt;My Home Sweet Home Page&lt;/TITLE&gt;Phần thân là
+nơi bạn nhập vào các văn bản sẽ xuất hiện trên trang Web lẫn các
+thẻ khác quy định dáng vẻ của trang. Để xác định phần thân, bạn đặt
+các thẻ &lt;BODY&gt; và &lt;/BODY&gt; sau phần đầu (dưới
+&lt;/HEAD&gt;).Các thẻ sau đây xác định cấu trúc cơ bản của mọi
+trang Web:&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt; tên trang
+&lt;TITLE&gt;Các thẻ tiêu đề khác&lt;/HEAD&gt;&lt;BODY&gt;Văn bản
+và các thẻ của trang Web&lt;/BODY&gt;&lt;/HTML&gt;</para>
+		<para id="id4384588">Văn bản và các đoạn:</para>
+		<para id="id3965553">Như đã trình bày ở trên, bạn bổ sung văn bản
+của trang Web bằng cách đánh nó vào giữa các thẻ &lt;BODY&gt; và
+&lt;/BODY&gt;. Tuy nhiên, cần nhớ rằng không thể bắt đầu một đoạn
+văn (chương, mục) mới mà chỉ ấn phím Enter. Bạn phải dùng thẻ để
+báo cho browser biết rằng bạn muốn chuyển vào một đoạn văn
+mới:&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt;My Home Sweet Home
+Page&lt;/HEAD&gt;&lt;BODY&gt;Văn bản này sẽ xuất hiện trong phần
+thân của trang Web.&lt;P&gt;Văn bản này sẽ xuất hiện trong một đoạn
+văn bản mới&lt;/BODY&gt;&lt;/HTML&gt;</para>
+		<para id="id4255549">Bổ sung định dạng và các tiêu đề:</para>
+		<para id="id3606576">HTML bao gồm nhiều thẻ làm đẹp cho văn bản
+trong trang. Bạn đã thấy ở trên, một từ hoặc một câu sẽ hiện thành
+dạng chữ đậm như thế nào khi được đặt vào giữa các thẻ &lt;B&gt; và
+&lt;/B&gt;. Bạn cũng có thể biểu hiện văn bản theo kiểu chữ nghiêng
+bằng cách bao chúng lại bằng các thẻ &lt;I&gt; và &lt;/I&gt;, và
+làm cho các từ xuất hiện ở dạng cách đơn với các thẻ &lt;TT&gt; và
+&lt;/TT&gt;.Giống như các chương sách, nội dung của nhiều trang Web
+được chia thành các đoạn. Để giúp phân cách các đoạn này và làm cho
+dễ đọc hơn, bạn có thể sử dụng tiêu đề. Lý tưởng nhất, các tiêu đề
+này phải có tác dụng như là những đề mục nhỏ, thể hiện ý tưởng tóm
+tắt về đoạn văn đó. Để làm cho các đề mục này nổi bật, HTML có 6
+loại thẻ tiêu đề để hiển thị văn bản theo phông chữ đậm với nhiều
+cỡ chữ khác nhau, từ ứng với phông lớn nhất đến ứng với phông nhỏ
+nhất.</para>
+		<para id="id2677916">Làm việc với các liên kết siêu văn bản</para>
+		<para id="id4225811">Thẻ HTML dùng để thiết lập các liên kết siêu
+văn bản là &lt;A&gt; và &lt;/A&gt;. Thẻ &lt;A&gt; hơi khác so với
+các thẻ khác mà bạn đã gặp vì bạn không thể dùng nó một mình mà
+phải kèm thêm địa chỉ của tài liệu bạn muốn liên kết. Sau đây là
+cách hoạt động của nó:&lt;AHREF=Address&gt;HREF là viết tắt của
+hypertext reference (tham chiếu siêu văn bản). Chỉ cần thay từ địa
+chỉ bằng địa chỉ thực của trang Web mà bạn muốn dùng để liên kết .
+Dưới đây là một ví
+dụ:&lt;AHREF=http://www/dosword.com/dosworld/index.html&gt;Như vậy
+còn chưa kết thúc. Tiếp theo, bạn phải cung cấp một số văn bản diễn
+giải liên kết để nhấn chuột vào đó. Công việc còn lại là chèn văn
+bản vào giữa các thẻ &lt;A&gt; và &lt;/A&gt; như
+sau:&lt;AHREF=address&gt; Văn bản liên kết &lt;/A&gt;Sau đây là một
+ví dụ :Why not head to the
+&lt;AHREF=http://www.dosworld.com/dosworld/index.html&gt;DOSWorld
+home page&lt;/A&gt;?</para>
+		<para id="id4032747">Chèn hình:</para>
+		<para id="id4384616">Nếu bạn muốn Web site của mình nổi trội hơn,
+bạn phải theo xu hướng đồ hoạ với các hình ảnh được chọn kỹ lưỡng.
+Làm thế nào để chèn hình vào trong khi các tập tin HTML chỉ có văn
+bản? Nhờ bổ sung thẻ &lt;IMG&gt; vào tài liệu, nó sẽ ra lệnh Chèn
+một hình vào đây. Thẻ này xác định tên của tậ tin đồ hoạ để trình
+duyệt có thể mở tập tin đó và hiển thị các hình:&lt;IMG
+SRC=filename&gt;ở đây, SRC là viết tắt của source (nguồn) và tên
+tập tin là tên và đường dẫn của tập tin đồ hoạ mà bạn muốn hiển thị
+(dùng dạng GIF hoặc JPG). Giả sử bạn có một hình tên là logo.gif
+nằm trong thư mục Graphics. Để đưa nó vào trang Web, bạn dùng dòng
+sau đây.&lt;IMG SRC=Graphics/logo.gif&gt;</para>
+		<para id="id4188618">Các bảng tham khảo HTML trên Web:</para>
+		<para id="id4418466">Một vài thẻ bạn thấy trong bài này chỉ là
+những cái vụn vặt trên bề mặt HTML. Có hàng tá các thẻ bổ sung khác
+cho phép bạn thành lập các danh sách liệt kê dấu đầu dòng, các
+bảng, và cả các biểu tương tác.Để tìm hiểu về chúng, bạn hãy thử
+dùng một trong các bảng tham khảo HTML trên Web. Yahoo! cung cấp
+một danh sách các tham khảo này ở địa chỉ 
+<link url="http://www.yahoo.com/Computers_and_Internet/Information_and_Documentation/Data_Formats/HTML/Reference/">
+http://www.yahoo.com/Computers_and_Internet/</link>
+			<link url="http://www.yahoo.com/Computers_and_Internet/Information_and_Documentation/Data_Formats/HTML/Reference/"/>
+			<link url="http://www.yahoo.com/Computers_and_Internet/Information_and_Documentation/Data_Formats/HTML/Reference/">
+Information_and_Documentation/Data_Formats/HTML/Reference/</link>Đồng
+thời, Microsoft cũng có một bảng tham khảo HTML xuất sắc (dĩ nhiên
+đã được cài vào Internet Explorer của riêng họ) ở địa chỉ:
+<link url="http://www.microsoft.com/workshop/author/newhtml/default.html.">
+http://www.microsoft.com/workshop/author/newhtml/default.html.</link>
+			<link url="http://www.microsoft.com/workshop/author/newhtml/default.html."/>Cuối
+cùng khi bạn đã trở thành chuyên gia viết mã HTML, thì một trong
+các phương pháp tốt nhất để biết nhiều hơn về HTML là xem mã mà
+những người khác đã dùng để xây dựng các trang của họ. Ngay khi có
+một trang cụ thể trong browser của mình, bạn hãy lưu chúng lại
+(dùng File/Save As trong Netscape Navigator hoặc File/Save As File
+trong Internet Explorer), rồi mở tập tin đã lưu nó ra xem trong
+trình xử lý văn bản của bạn.Ngoài ra, Netscape Navigator và
+Internet Explorer cũng cho phép xem các trang bất kỳ được mở ra
+trong browser; hãy chọn View/Document Source trong Netscape
+Navigator hoặc View/Source trong Internet Explorer.Các bộ soạn thảo
+HTMLKhông nhất thiết phải tìm hiểu các thẻ HTML để tạo dựng các
+trang Web. Có nhiều chương trình Windows có thể thực hiện công việc
+chèn thêm các thẻ thích hợp này một cách tự động. Sau đây là ví dụ
+một số trình soạn thảo đang có sẵn:Word 97. Phiên bản mới nhất của
+Microsoft Word có sẵn khả năng HTML, bao gồm cả các ví dụ mẫu và
+lệnh Save to HTML để chuyển đổi các tài liệu World hiện hữu thành
+HTML.Netscape Composer. Một phần của bộ Netscape Communicator, có
+kỹ thuật tạo trang WYSIWYG (thấy gì được nấy) và tích hợp chặt chẽ
+với Netscape Navigator. Hãy tìm địa chỉ 
+<link url="http://home.netscape.com/">
+http://home.netscape.com/</link>để có nhiều thông tin hơn.WebEdit.
+Chương trình WebEdit xuất sắc của Kenn Nesbitt có giao diện trực
+giác và hỗ trợ hầu hết các thẻ HTML có trên hành tinh này, đồng
+thời tốc độ rất nhanh. HomeSite. Đây là một trình biên tập HTML
+tương đối mới. Một điều rất ngạc nhiên là nó được biên soạn bởi một
+người vẽ tranh biếm hoạ - tác giả của phim hoạt hình Dexter. Nó là
+một bộ soạn thảo đầy đủ tính năng, bao gồm cả trình kiểm tra chính
+tả cài sẵn, browser, frame wizard, các thẻ HTML mã hoá màu, và
+nhiều cái khác nữa. Tìm theo địa chỉ 
+<link url="http://www.dexnet.com/homesite.html.">
+http://www.dexnet.com/homesite.html.</link>
+			<link url="http://www.dexnet.com/homesite.html."/>Bùi Xuân ToạiDOS
+World 6/97</para>
+	</content>
+</document>
