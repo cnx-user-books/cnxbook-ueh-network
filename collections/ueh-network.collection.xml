@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="vi">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="vi" authors="Phung Ho Van">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col10367</md:content-id>
     <md:title>UEH Network</md:title>
     <md:language>vi</md:language>
     <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
     <md:uuid>12fffab2-e4b3-4aeb-a199-b58272cc1002</md:uuid>
-<md:slug>ueh-network</md:slug>
-</metadata>
+    <md:slug>ueh-network</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
       <md:title>Nhap mon HTML</md:title>
